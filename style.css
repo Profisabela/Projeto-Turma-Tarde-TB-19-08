@@ -1,0 +1,119 @@
+/* Definições Gerais e Fundo Colorido */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Um gradiente moderno e caloroso que mistura azul suave com rosa pastel */
+    background: linear-gradient(135deg, #e0e7ff 0%, #fce7f3 100%);
+    color: #1e293b;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Caixa do Artigo */
+.container-principal {
+    background-color: #ffffff;
+    max-width: 700px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 24px; /* Cantos bem arredondados e modernos */
+    box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15); /* Sombra suave azulada */
+}
+
+/* Estilo da Imagem de Destaque */
+.imagem-artigo {
+    width: 100%;
+    height: 280px;
+    object-fit: cover; /* Corta a imagem perfeitamente sem distorcer */
+    border-radius: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Título em tom Indigo Vibrante */
+h1 {
+    color: #4f46e5;
+    font-size: 2.3rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #475569;
+}
+
+/* Bloco da Lista (Fundo Rosa/Roxo muito suave) */
+.bloco-destaque {
+    background-color: #fdf2f8;
+    border-left: 5px solid #db2777; /* Barra rosa forte */
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none; /* Remove as bolinhas padrão */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+/* Animação ao passar o rato na lista */
+li:hover {
+    transform: translateX(8px);
+}
+
+.icone-lista {
+    margin-right: 12px;
+    font-size: 1.3rem;
+}
+
+/* Caixa do Botão */
+.seccao-interativa {
+    text-align: center;
+    margin: 35px 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Botão Dinâmico e Colorido (Rosa para Roxo) */
+#btn-frase {
+    background: linear-gradient(135deg, #db2777 0%, #4f46e5 100%);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(219, 39, 119, 0.3);
+    transition: all 0.3s ease;
+}
+
+#btn-frase:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente de tamanho */
+    box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+}
+
+/* Espaço da frase */
+#exibir-frase {
+    font-style: italic;
+    color: #4f46e5;
+    margin-top: 20px;
+    font-size: 1.15rem;
+    font-weight: 500;
+    min-height: 50px;
+}
